@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NPM Test</title>
+  </head>
+  <body>
+    <main class="page-main">
+      <h1 class="page-main__title">Стартовая страница</h1>
+
+      <section class="page-main__content">
+        <h2>Основная секция</h2>
+        <form class="page-main__form form" method="POST" action="#">
+          <div class="form__inner-wrap">
+            <fieldset class="form__fieldset">
+              <div class="form__fieldset-wrap">
+                <label class="form__label" for="id_text">Введите текст:</label>
+                <input class="form__text" type="text" name="text" id="id__text">
+                <input class="form__submit" type="submit">
+              </div>
+            </fieldset>
+
+            <fieldset class="form__fieldset">
+              <label class="form__label form__label--result" for="id__textarea">Результат:</label>
+              <textarea class="form__textarea" type="textarea" id="id__textarea" name="result" cols="25" rows="20"></textarea>
+            </fieldset>
+          </div>
+        </form>
+      </section>
+    </main>
+
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>

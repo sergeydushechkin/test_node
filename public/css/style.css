@@ -1,0 +1,22 @@
+.form__fieldset-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.form__text {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+.form__inner-wrap {
+  width: 60%;
+}
+
+.form__label--result {
+  display: block;
+}
+
+.form__textarea {
+  width: 100%;
+}
